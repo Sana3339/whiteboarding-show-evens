@@ -20,8 +20,7 @@ def show_evens(nums):
     #initialize empty list of indices
     #iterate through num list keeping track of indices
         #check if num is even
-        #if it is, add indice of num to indices_list
-        #if not, keep iterating
+        #if it is, add index of num to indices_list
     #return list of indices
 
     list_of_indices = []
