@@ -17,6 +17,20 @@ For example::
 def show_evens(nums):
     """Given list of ints, return list of *indices* of even numbers in list."""
 
+    #initialize empty list of indices
+    #iterate through num list keeping track of indices
+        #check if num is even
+        #if it is, add indice of num to indices_list
+        #if not, keep iterating
+    #return list of indices
+
+    list_of_indices = []
+
+    for i, num in enumerate(nums):
+        if num % 2 == 0:
+            list_of_indices.append(i)
+
+    return list_of_indices
 
 if __name__ == '__main__':
     import doctest
